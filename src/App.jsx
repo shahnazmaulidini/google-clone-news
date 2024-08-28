@@ -1,11 +1,13 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Kamu hebat, kamu berharga, kamu istimewa!💖
-    </h1>
+    <div className="bg-gray-100 min-h-screen">
+      <Navbar/>
+      </div>
   )
 }
 
-export default App
+export default App;
